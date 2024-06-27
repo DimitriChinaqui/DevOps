@@ -20,11 +20,13 @@ This project uses Terraform to deploy a scalable web application infrastructure 
 1. Clone the repository:
     
     git clone https://github.com/your-repo/azure-terraform-deployment.git
-    cd azure-terraform-deployment
+    cd DevOps
+
+2. Set the admin passwords on variables.tf file
 
 
 2. Initialize Terraform:
-        terraform init
+    terraform init
    
 3. Apply the Terraform scripts to deploy the infrastructure:
     
@@ -41,7 +43,7 @@ The deployment will output:
 
 ## Cost Estimation
 
-The estimated cost for the deployed infrastructure is approximately $200/month, depending on usage and Azure pricing. Refer to the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) for a detailed cost breakdown.
+The estimated cost for the deployed infrastructure is approximately $273/month.
 
 ## Cleanup
 

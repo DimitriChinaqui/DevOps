@@ -16,13 +16,13 @@ variable "location" {
 #Virtual Machine
 variable "admpass" {
   sensitive = true
-  default = ""
+  default = "password"
 }
 
 #SQL Database
 variable "sqlpass" {
   sensitive = true
-  default = ""
+  default = "password"
 }
 
 #Virtual Network
